@@ -20,7 +20,7 @@ print("slope-m(weight) =", model.coef_)
 print("intercept - c (constant) =", model.intercept_)
 
 #test prediction
-sq_feet = [[2500, 3, 5]]
+sq_feet = [[2550, 4, 6]]
 pred_price = model.predict(sq_feet)
 print("Predicted price = ", pred_price[0])
 
